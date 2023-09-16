@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+:root{
+    --bleu:#25384F;
+    --jaune:#CEDD3E;
+    --ciel:#85C3E9;
+    --blanc:#FFFFFF;
+    --button:#374F6C;
+}
+
+
+/* ***************************Design Topbar************************************** */
+.topbar{
+    display: flex;
+    /* justify-content:center; */
+    background-color: var(--bleu);
+    color: var(--ciel);
+    
+
+}
+.topbar ul{
+    display: flex;
+    /* margin-right: 500px; */
+    
+    
+}
+.topbar ul li{
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-left: 80px;
+
+}
+.list1{
+    color: var(--blanc);
+    font-weight: bold;
+    border-bottom: 5px solid var(--ciel);
+    margin-left: 300px;
+    height: 23px;
+    /* padding-left: 90px; */ 
+}
+.list2{
+    border-left: 1px solid var(--ciel);
+    padding-left: 70px;
+    height: 30px;
+    
+}
+.list3{
+    border-left: 1px solid var(--ciel);
+    padding-left: 70px;
+    height: 30px;
+    
+}
+.list4{
+    border-left: 1px solid var(--ciel);
+    padding-left: 70px;
+    height: 30px;
+    
+}
+
+.btn-topbar{
+    width:  180px;
+    height: 56px;
+    color: var(--bleu);
+    background-color: var(--jaune);
+    border: 1px solid var(--jaune);
+}
+.btn-topbar1{
+    background-color: var(--button);
+    border: 1px solid var(--button);
+    color: var(--ciel);
+    height: 56px;
+    width:  100px;
+    margin-left: 20px;
+    
+
+}
+
+
+         /* ***************************************Design Navbar*************************************** */
+         .navbar{
+            display: flex;
+            background-color: var(--blanc);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            
+         }
+         .right-navbar ul{
+            display: flex;
+            margin-left: 500px;
+         }
+
+         .right-navbar ul li{
+            margin-left: 50px;
+            margin-top: 10px;
+            
+
+         }
+
+         .navbar-logo{
+            display: flex;
+            margin-left: 140px;
+
+         }
+         .navbar-logo h1{
+            color: var(--bleu);
+            font-weight: bold;
+         }
+
+         .navbar-logo span{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: var(--ciel);
+            margin-top: 23px;
+         }
+
+
+         /* ***************************************Design carroussel*************************************** */
+
+         .article{
+            display: flex;
+            justify-content: center;
+         }
+         .carroussel{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: var(--ciel);
+            height: 500px;
+         }
+
+         .carroussel .img-carroussel{
+            margin-top: 53px;
+           
+         }
+         .carroussel .carroussel-text{
+            margin-top: 100px;
+           
+
+         }
+         .carroussel-text p{
+            line-height: 30px;
+         }
+
+
+         .carroussel-text h1{
+            color: var(--bleu);
+            font-weight: bold;
+            margin-bottom: 20px;
+         }
+
+
+         .para-end{
+            margin-bottom: 30px;
+
+         }
+         .btn-carroussel{
+            color: var(--bleu);
+            font-weight: bold;
+            background-color: var(--jaune);
+            border: 1px solid var(--jaune);
+           height: 50px;
+           width: 250px;
+           box-shadow: 2px 2px 2px rgb(97, 90, 90);
+         }
+
+         .img-carroussel img{
+            height: 450px;
+           
+         }
+
+
+
+         /* ***************************************Design Article*************************************** */
+
+         .text-article h3{
+            margin-bottom: 30px;
+            margin-top: 80px;
+            color: var(--bleu);
+            font-weight: bold;
+            
+
+         }
+
+         .text-article{
+            margin-left: 50px;
+         }
+         .img-article {
+            margin-top: 120px;
+            margin-right: 50px;
+           
+         }
+
