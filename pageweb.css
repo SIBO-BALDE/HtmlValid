@@ -19,37 +19,44 @@
 /* ***************************Design Topbar************************************** */
 .topbar{
     display: flex;
-    /* justify-content:center; */
+    justify-content:flex-start;
     background-color: var(--bleu);
     color: var(--ciel);
+    
     
 
 }
 .topbar ul{
     display: flex;
-    /* margin-right: 500px; */
+    
     
     
 }
 .topbar ul li{
     margin-right: 10px;
     margin-top: 8px;
-    margin-left: 80px;
+    
 
 }
 .list1{
     color: var(--blanc);
     font-weight: bold;
     border-bottom: 5px solid var(--ciel);
-    margin-left: 300px;
+    margin-left: 145px;
     height: 23px;
-    /* padding-left: 90px; */ 
+   
 }
 .list2{
     border-left: 1px solid var(--ciel);
     padding-left: 70px;
     height: 30px;
     
+}
+.fa-magnifying-glass{
+    color: var(--ciel);
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 .list3{
     border-left: 1px solid var(--ciel);
@@ -70,6 +77,7 @@
     color: var(--bleu);
     background-color: var(--jaune);
     border: 1px solid var(--jaune);
+    margin-right: 0;
 }
 .btn-topbar1{
     background-color: var(--button);
@@ -133,6 +141,13 @@
             justify-content: space-evenly;
             background-color: var(--ciel);
             height: 500px;
+         }
+         .tm{
+            margin-bottom: 30px;
+            font-size: 20px;
+            margin-bottom: 40px;
+            font-weight: bold;
+            color: var(--bleu);
          }
 
          .carroussel .img-carroussel{
